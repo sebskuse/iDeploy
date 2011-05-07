@@ -1,0 +1,10 @@
+A very simple ad-hoc iOS distribution system built in PHP.
+
+I use this internally for deploying beta builds to clients. It works direct off the device, so no sync is required.
+
+INSTALLATION
+1. Upload all files (including the .htaccess file) to your web server.
+2. Edit settings.php to reflect your environment & application. If you do edit PLIST_URL, make sure to reflect the changes in .htaccess.
+3. Upload your ad-hoc distribution profile as provisioning.mobileprovision.
+4. Upload your application into builds following the filename format set in BUILD_FILENAME.
+5. Profit!
